@@ -97,7 +97,7 @@ print(aluno["nome"])
 for i in range(5):
     print("Python é divertido!")
 
-'''   
+
     
 #funções   
     
@@ -119,7 +119,7 @@ def ciclo_de_frutas():
     return fruta
         
 ciclo_de_frutas()
-
+'''
 
 
 
@@ -187,3 +187,30 @@ def fatorial(n):
     return n * fatorial(n-1)
 print(fatorial(5))
 '''
+
+
+
+# listas 
+
+listaCores = ["vermelho", "azul", "verde"]
+print(listaCores[1])
+
+
+# dicionários
+
+carro = {'marca': 'Renault', 'ano': 2020, 'cor': 'azul'}
+print(carro['ano']) 
+
+
+# if, elif e else   
+
+def verificarIdade(idade):
+    if idade < 13:
+        return "Criança"
+    elif idade < 18:
+        return "Adolescente"
+    else:
+        return "Adulto" 
+print(verificarIdade(15))  
+
+
